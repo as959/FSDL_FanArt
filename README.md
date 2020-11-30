@@ -1,17 +1,9 @@
-# FSDL_FanArt
-Team Details -
-Ankita Shelke 1811103 
-Jainam Shah   1811085
+# MEAN Stack Authentication
 
+To run, you just have MongoDB installed and running, and NodeJS installed.
 
-# Steps for execution -
-1. Clone the repository and start the mongodb server
-2. In main directory type in command
-     npm init
-     npm start
-3. Now go to client directory
-    cd client
-    npm init
-    npm start.
- 
-    
+* Start MongoDB
+* Clone the repo
+* `npm install` to install API dependencies and `npm start` to start the API
+* Open a new terminal and navigate to the `client` directory, `npm install` to setup the Angular dependencies, and `npm start` to start the local development server
+* Open http://localhost:4200 to see the application
