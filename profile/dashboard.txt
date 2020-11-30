@@ -1,0 +1,1 @@
+This has the database for storing images in mongodb and UI for dashboard page.
