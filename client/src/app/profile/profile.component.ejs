@@ -1,0 +1,312 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Image Uploading</title> 
+    <style  type="text/css">
+    #Add_Post {
+		position: absolute;
+		width: 1600px;
+		height: 1200px;
+		background: linear-gradient(136.2deg, rgba(49,76,220,1) 0%, rgba(215,38,163,1) 100%);
+		overflow: hidden;
+		--web-view-name: Add Post;
+		--web-view-id: Add_Post;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	#Container {
+		fill: rgba(240,244,252,1);
+	}
+	.Container {
+		overflow: visible;
+		position: absolute;
+		width: 1554px;
+		height: 1134px;
+		left: 24px;
+		top: 31px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_2097_n {
+		fill: url(#Rectangle_2097_n);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2097_n {
+		position: absolute;
+		overflow: visible;
+		width: 368px;
+		height: 456px;
+		left: 1154px;
+		top: 679px;
+	}
+	#Right {
+		position: absolute;
+		width: 368px;
+		height: 882.142px;
+		left: 1154px;
+		top: 179px;
+		overflow: visible;
+	}
+	#Right_Bar_q {
+		fill: url(#Right_Bar_q);
+	}
+	.Right_Bar_q {
+		position: absolute;
+		overflow: visible;
+		width: 368px;
+		height: 471px;
+		left: 0px;
+		top: 0px;
+	}
+	#Profile {
+		position: absolute;
+		width: 234px;
+		height: 400px;
+		left: 67px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1539 {
+		fill: rgba(241,242,246,1);
+	}
+	.Rectangle_1539 {
+		filter: drop-shadow(0px 13px 25px rgba(196, 220, 235, 0.455));
+		position: absolute;
+		overflow: visible;
+		width: 309px;
+		height: 475px;
+		left: 0px;
+		top: 0px;
+	}
+	#Howard_Pinsky {
+		left: 32px;
+		top: 232px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(6,6,7,1);
+	}
+	#Photos {
+		position: absolute;
+		width: 58px;
+		height: 74px;
+		left: 88px;
+		top: 286px;
+		overflow: visible;
+	}
+	#ID630 {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(6,6,6,1);
+	}
+	#Posts {
+		opacity: 0.5;
+		left: 5px;
+		top: 46px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(3,3,3,1);
+	}
+	#DSC07158 {
+		position: absolute;
+		width: 119px;
+		height: 140px;
+		left: 57px;
+		top: 60px;
+		overflow: visible;
+	}
+	#Profile_y {
+		position: absolute;
+		width: 254.376px;
+		height: 350.369px;
+		left: 30.143px;
+		top: 501.773px;
+		overflow: visible;
+	}
+	#Path_368 {
+		fill: rgba(241,242,246,1);
+	}
+	.Path_368 {
+		filter: drop-shadow(0px 13px 25px rgba(196, 220, 235, 0.455));
+		overflow: visible;
+		position: absolute;
+		width: 250.376px;
+		height: 425.369px;
+		left: 26px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#FanArt {
+		left: 105px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 185px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		color: rgba(48,76,220,1);
+	}
+	#Hello {
+		left: 1236px;
+		top: 727px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 44px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(8,8,8,1);
+	}
+</style>
+</head> 
+  
+<body> 
+    <div id="Add_Post">
+        <svg class="Container" viewBox="0 0 1554 1134">
+            <path id="Container" d="M 37 0 L 1517 0 C 1537.4345703125 0 1554 16.56546401977539 1554 37 L 1554 1097 C 1554 1117.4345703125 1537.4345703125 1134 1517 1134 L 37 1134 C 16.56546401977539 1134 0 1117.4345703125 0 1097 L 0 37 C 0 16.56546401977539 16.56546401977539 0 37 0 Z">
+            </path>
+        </svg>
+        <svg class="Rectangle_2097_n">
+            <linearGradient id="Rectangle_2097_n" spreadMethod="pad" x1="0.5" x2="1.055" y1="0" y2="2.154">
+                <stop offset="0" stop-color="#384ada" stop-opacity="1"></stop>
+                <stop offset="0.6108" stop-color="#d426a4" stop-opacity="1"></stop>
+                <stop offset="1" stop-color="#b52eaf" stop-opacity="1"></stop>
+            </linearGradient>
+            <rect id="Rectangle_2097_n" rx="22" ry="22" x="0" y="0" width="368" height="456">
+            </rect>
+        </svg>
+        <div id="Right">
+            <svg class="Right_Bar_q">
+                <linearGradient id="Right_Bar_q" spreadMethod="pad" x1="0.378" x2="0.8" y1="-0.053" y2="1.207">
+                    <stop offset="0" stop-color="#304cdc" stop-opacity="1"></stop>
+                    <stop offset="1" stop-color="#d526a4" stop-opacity="1"></stop>
+                </linearGradient>
+                <rect id="Right_Bar_q" rx="24" ry="24" x="0" y="0" width="368" height="471">
+                </rect>
+            </svg>
+            <div id="Profile">
+                <svg class="Rectangle_1539">
+                    <rect id="Rectangle_1539" rx="24" ry="24" x="0" y="0" width="234" height="400">
+                    </rect>
+                </svg>
+                <div id="Howard_Pinsky">
+                    <span>Howard Pinsky</span>
+                </div>
+                <div id="Photos">
+                    <div id="ID630">
+                        <span>630</span>
+                    </div>
+                    <div id="Posts">
+                        <span>Posts</span>
+                    </div>
+                </div>
+                <img id="DSC07158" src="DSC07158.png" srcset="DSC07158.png 1x, DSC07158@2x.png 2x">
+                    
+            </div>
+            <div id="Profile_y">
+                <svg class="Path_368" viewBox="0 0 254.376 380.369">
+                    <path id="Path_368" d="M 24.13050079345703 0 L 230.2452239990234 0 C 243.5720977783203 0 254.3757171630859 10.32104015350342 254.3757171630859 23.05268859863281 L 254.3757171630859 357.3167724609375 C 254.3757171630859 370.0484008789063 243.5720977783203 380.3694458007813 230.2452239990234 380.3694458007813 L 24.13050079345703 380.3694458007813 C 10.80359268188477 380.3694458007813 0 370.0484008789063 0 357.3167724609375 L 0 23.05268859863281 C 0 10.32104015350342 10.80359268188477 0 24.13050079345703 0 Z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div id="FanArt">
+            <span>FanArt</span>
+            <div style="width: 900px;overflow-y: scroll;height: 1000px;"> 
+                <% items.forEach(function(image) { %> 
+                <div> 
+                    <div > 
+                        <div> 
+                            <h5 style="text-align: start;font-size: medium;color:black"><%= image.name %></h5> 
+                            <p><%= image.desc %></p> 
+                        </div> 
+                        <img style="width: 700px ;height: 400px;"src="data:image/<%=image.img.contentType%>;base64, 
+                             <%=image.img.data.toString('base64')%>"> 
+                        
+                    </div> 
+                </div> 
+                <% }) %> 
+            </div> 
+        </div>
+        <div id="Hello">
+            <span style="text-align: center;
+            font-family: Rift;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            color: rgba(6,6,7,1);padding-bottom: 30;">POST</span>
+            <div> 
+                <form action="/" method="POST" enctype="multipart/form-data"> 
+                    <div style="height: 20px;"></div>
+                    <div> 
+                        <label for="name" style="text-align: start; ">Add Title</label> 
+                        <input style="padding-bottom: 20;"type="text" id="name" placeholder="Name" 
+                               value="" name="name" required> 
+                    </div> 
+                    <div style="height: 20px;"></div>
+                    <div> 
+                        <label for="desc" style="text-align: start; ">Add Description</label> 
+                        <textarea style="padding-bottom: 20;"id="desc" name="pesc" value="" rows="2" 
+                                  placeholder="Description" required> 
+                        </textarea> 
+                    </div> 
+                    <div style="height: 20px;"></div>
+                    <div> 
+                        <label for="image" style="text-align: start; ">Upload Image</label> 
+                        <input type="file" id="image" 
+                               name="image" value="" required> 
+                    </div> 
+                    <div style="height: 20px;"></div>
+                    <div> 
+                        <button type="submit" style=" width: 140px;height: 50px;font-weight: 700;color:azure">Submit</button> 
+                    </div> 
+                </form> 
+            </div> 
+          
+             
+            
+        </div>
+    </div>
+    //////
+    
+    
+</body> 
+  
+</html>
